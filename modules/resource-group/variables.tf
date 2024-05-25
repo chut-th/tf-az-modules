@@ -7,7 +7,7 @@ variable "csp" {
 variable "service" {
   description = "The name of the provissioned service"
   type        = string
-
+  default = "rg"
 }
 
 variable "company" {
